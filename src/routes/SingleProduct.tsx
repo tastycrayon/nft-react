@@ -32,11 +32,11 @@ const SingleProduct: React.FC<PropTypes> = () => {
       <HorizontalLine />
       <div className="container mx-auto p-2 mt-6">
         <main>
-          <div className="grid grid-cols-12 gap-x-7">
+          <div className="grid grid-cols-12 gap-x-7 gap-y-4">
             <div className="col-span-12 lg:col-span-5">
               <img
                 src={product.coverUrl}
-                className="max-w-full roundedLg shadow-2xl"
+                className="max-w-full rounded-lg shadow-2xl"
                 alt={product.title}
               />
             </div>
