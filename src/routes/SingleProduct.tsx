@@ -13,7 +13,7 @@ const SingleProduct: React.FC<PropTypes> = () => {
     <>
       {/* breadcrumb */}
       <div className="container mx-auto">
-        <div className="text-sm breadcrumbs">
+        <div className="text-sm breadcrumbs p-2">
           <ul>
             <li>
               <Link to={HOME_PATH} className="link">
