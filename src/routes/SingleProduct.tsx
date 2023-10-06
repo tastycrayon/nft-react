@@ -105,7 +105,7 @@ const SingleProduct: React.FC<PropTypes> = () => {
                 </div>
               </div>
               {/* action buttons */}
-              <div className="space-x-2">
+              <div className="space-x-2 space-y-2">
                 <button className="btn btn-primary btn-wide">Buy Now</button>
                 <button className="btn btn-outline px-10">Make Offer</button>
               </div>
