@@ -19,7 +19,7 @@ const ErrorPage: React.FC<PropTypes> = () => {
           <div className="font-medium text-sm md:text-xl lg:text-2xl mt-8">
             The page you are looking for could not be found.
           </div>
-          <Link to={HOME_PATH} className="link">
+          <Link to={HOME_PATH}>
             <button className="btn btn-neutral mt-4">Return Home</button>
           </Link>
         </div>
